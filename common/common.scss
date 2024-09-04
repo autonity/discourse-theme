@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: Berkeley;
-  src: url($assets-fonts/BerkeleyMonoVariable-Regular.woff2) format('woff2')
+  src: url($BerkeleyMonoVariable-Regular) format('woff2')
 }
 
 html { 
@@ -134,4 +134,3 @@ aside.onebox {
 .fancy-title {
     padding-left: 14px;
 }
-
