@@ -4,27 +4,163 @@
      --primary-medium: #121212;
      --primary-med-or-secondary-high: #403e3e;
      --primary-low-mid-or-secondary-high: #646464;
+ }
+ @media (prefers-color-scheme: light) {
+    :root {
+        --scheme-type: dark;
+    }
+    .title > a {
+        background-image: url(https://raw.githubusercontent.com/autonity/autonity-media-kit/main/03_autonity-wordmark/autonity-wordmark-black-withborders.svg);
+    }    
+}
+@media (prefers-color-scheme: dark) {
+    :root {        
+        --scheme-type: dark;
+        --primary: #ffffff;
+        --secondary: #111111;
+        --tertiary: #ffffff;
+        --quaternary: #1ab8ca;
+        --header_background: #111111;
+        --header_primary: #cccccc;
+        --highlight: #141414;
+        --danger: #37fffe;
+        --success: #ff6600;
+        --love: #059372;
+        --d-selected: #2e0f00;
+        --d-hover: #141414;
+        --always-black-rgb: 255, 255, 255;
+        --primary-rgb: 255, 255, 255;
+        --primary-low-rgb: 24, 24, 24;
+        --primary-very-low-rgb: 7, 7, 7;
+        --secondary-rgb: 17, 17, 17;
+        --header_background-rgb: 17, 17, 17;
+        --tertiary-rgb: 255, 255, 255;
+        --highlight-rgb: 20, 20, 20;
+        --success-rgb: 255, 102, 0;
+        --primary-very-low: #070707;
+        --primary-low: #181818;
+        --primary-low-mid: #c1c1c1;
+        --primary-medium: #cacaca;
+        --primary-high: #d3d2d2;
+        --primary-very-high: #cacaca;
+        --primary-50: #979797;
+        --primary-100: #cecccc;
+        --primary-200: #c0bebe;
+        --primary-300: #cecbcb;
+        --primary-400: #e7e7e7;
+        --primary-500: #e9e8e8;
+        --primary-600: #eeeeee;
+        --primary-700: #f3f1f1;
+        --primary-800: #f7f7f7;
+        --primary-900: #f8f8f8;
+        --header_primary-low: rgb(13, 13, 13);
+        --header_primary-low-mid: rgb(255, 255, 255);
+        --header_primary-medium: rgb(80, 80, 80);
+        --header_primary-high: rgb(109, 109, 109);
+        --header_primary-very-high: rgb(161, 161, 161);
+        --secondary-low: #b2b2b2;
+        --secondary-medium: lightgray;
+        --secondary-high: #595959;
+        --secondary-very-high: #121212;
+        --tertiary-very-low: #181818;
+        --tertiary-low: #242424;
+        --tertiary-medium: #777777;
+        --tertiary-high: #bebebe;
+        --tertiary-hover: #f2f2f2;
+        --tertiary-50: #181818;
+        --tertiary-100: #1d1d1d;
+        --tertiary-200: #1f1f1f;
+        --tertiary-300: #242424;
+        --tertiary-400: #3e3e3e;
+        --tertiary-500: #585858;
+        --tertiary-600: #777777;
+        --tertiary-700: #8f8f8f;
+        --tertiary-800: #a7a7a7;
+        --tertiary-900: #bebebe;
+        --quaternary-low: #083231;
+        --highlight-bg: #060606;
+        --highlight-low: #060606;
+        --highlight-medium: black;
+        --highlight-high: #898989;
+        --danger-low: #002e2e;
+        --danger-low-mid: rgba(0, 155, 154, 0.7);
+        --danger-medium: #00d9d8;
+        --danger-hover: #5fff00;
+        --success-low: #470047;
+        --success-medium: #b2ffb2;
+        --success-hover: #ff8500;
+        --love-low: #0116f1;
+        --wiki: purple;
+        --blend-primary-secondary-5: rgb(6, 6, 6);
+        --primary-med-or-secondary-med: #777777;
+        --primary-med-or-secondary-high: #777777;
+        --primary-high-or-secondary-low: #a7a7a7;
+        --primary-low-mid-or-secondary-high: #474747;
+        --primary-low-mid-or-secondary-low: #474747;
+        --primary-or-primary-low-mid: #ffffff;
+        --highlight-low-or-medium: #060606;
+        --tertiary-or-tertiary-low: #ffffff;
+        --tertiary-low-or-tertiary-high: #242424;
+        --tertiary-med-or-tertiary: #777777;
+        --secondary-or-primary: #111111;
+        --tertiary-or-white: #ffffff;
+        --facebook-or-white: #ff9900;
+        --twitter-or-white: white;
+        --hljs-comment: #667;
+        --hljs-number: #660;
+        --hljs-string: #3ab;
+        --hljs-literal: #ba7;
+        --hljs-tag: #ff7f80;
+        --hljs-attribute: #ff7f7f;
+        --hljs-symbol: #66f;
+        --hljs-bg: #070707;
+        --hljs-builtin-name: #bebebe;
+        --google: #111111;
+        --google-hover: #0d0d0d;
+        --instagram: #1ecf93;
+        --instagram-hover: #53e9b7;
+        --facebook: #ff9900;
+        --facebook-hover: #ffb200;
+        --cas: #8b459e;
+        --twitter: #ffffff;
+        --github: #efefe0;
+        --github-hover: #b9c1bd;
+        --discord: #d87625;
+        --discord-hover: #b19566;
+        --gold: rgb(24, 60, 255);
+        --silver: #3f3f3f;
+        --bronze: #3280cd;
+        --shadow-modal: 0 8px 60px rgba(255, 255, 255, 0.6);
+        --shadow-composer: 0 -1px 40px rgba(255, 255, 255, 0.12);
+        --shadow-menu-panel: 0 8px 12px rgba(255, 255, 255, 0.15);
+        --shadow-card: 0 4px 14px rgba(255, 255, 255, 0.15);
+        --shadow-dropdown: 0 2px 12px 0 rgba(255, 255, 255, 0.1);
+        --shadow-header: 0 0 0 1px var(--primary-low);
+        --shadow-footer-nav: 0 0 2px 0 rgba(255, 255, 255, 0.2);
+        --shadow-focus-danger: 0 0 6px 0 var(--danger);
+        --float-kit-arrow-stroke-color: var(--primary-low);
+        --float-kit-arrow-fill-color: var(--secondary);
+    }
+
+    .title > a {
+        background-image: url(https://raw.githubusercontent.com/autonity/autonity-media-kit/main/03_autonity-wordmark/autonity-wordmark-white-withborders.svg);
+      }
+}
+.title > a {
+width: 195px;
+height: 42px;
+background-size: contain;
+background-repeat: no-repeat;
+
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --primary-medium: #fffff;
-        --primary-high: #f5f5f5;
-        --d-nav-bg-color--hover: var(--d-hover);
-        --d-hover: #505050;
-        --header_primary-low-mid: rgb(224 224 224);
-        --header_primary-low-mid: rgb(219 219 219);
-        --header_primary: #ededed;
-        --header_primary-high: rgb(44, 44, 44);
-        --primary-med-or-secondary-high: #b3b3b3;
-        --primary-low-mid-or-secondary-high: #cfcfcf;
-    }
+.title > a >img {
+    display: none;
 }
 
 @font-face {
   font-family: Berkeley;
-  src: url($BerkeleyMonoVariable-Regular) format('woff2')
+  src: url($BerkeleyMonoVariable-Regular) format('woff2');
 }
 
 html { 
@@ -134,3 +270,5 @@ aside.onebox {
 .fancy-title {
     padding-left: 14px;
 }
+
+
