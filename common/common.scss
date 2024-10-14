@@ -211,8 +211,6 @@ table th {
     color: var(--primary);
 }
 .fancy-title {
-    background: var(--primary);
-    color: var(--secondary)!important;
     font-weight: 400;
 }
 
@@ -267,8 +265,3 @@ a.edit-topic {
 aside.onebox {
     border: 5px solid var(--primary);
 }
-.fancy-title {
-    padding-left: 14px;
-}
-
-
